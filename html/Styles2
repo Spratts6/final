@@ -1,0 +1,66 @@
+body {
+    background-image: url("plants.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #2011f9;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 100;
+    padding: 10;
+  }
+  
+  h1, h2 {
+    color: #000000;
+    font-weight: bold;
+    margin-top: 50;
+    margin-bottom: 50;
+  }
+  
+  /* Style for the header links */
+  .header a {
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 14px 16px;
+    background-color: #333;
+  }
+  
+  /* Style for the hover effect */
+  .header a:hover {
+    background-color: #555;
+  }
+  
+  /* Style for the visited effect */
+  .header a:visited {
+    background-color: #666;
+  }
+  nav {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+  }
+  h2 {
+    float: left;
+    clear: both;
+  }
+  .header a {
+    z-index: 2;
+  }
+  body {
+    z-index: -1;
+  }
+  
+     </style>
+     <nav>
+       <ul>
+         <li><a href="Resume.html">Home</a></li>
+         <li><a href="resume.html">Resume</a></li>
+         <li><a href="about.html">About Me</a></li>
+       </ul>
+      
+     </nav>
+   </head>
+    <body>
